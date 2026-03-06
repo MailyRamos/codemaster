@@ -37,7 +37,7 @@ Lista de tarefas:
 ○ [x] 7. Botão de voltar ao topo  
 ○ [x] 8. Carrosel de projetos  
 ○ [x] 9. Formulário de contato  
-○ [ ] 10. Animação de scroll
+○ [x] 10. Animação de scroll
 
 
 
