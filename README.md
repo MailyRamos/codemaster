@@ -78,7 +78,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 📂 Estrutura de Pastas
 
 ```bash
-js-projeto/
+codemaster/
 ├──.vscode 
 ├── assets
 ├── códigos
