@@ -28,10 +28,10 @@ java irácorrigir e melhor é:
 Esses itens irá funcionar perfeitamente no site, aplicando o java script no código.
 
 Lista de tarefas:  
-○ [ ] 1. Menu Mobile  
-○ [ ] 2. Links Ativos  
-○ [ ] 3. Alternar modo claro/escuro  
-○ [ ] 4. Animação do título  
+○ [x] 1. Menu Mobile  
+○ [x] 2. Links Ativos  
+○ [x] 3. Alternar modo claro/escuro  
+○ [x] 4. Animação do título  
 ○ [ ] 5. Animação da seção home  
 ○ [ ] 6. Animação das seções  
 ○ [ ] 7. Botão de voltar ao topo  
