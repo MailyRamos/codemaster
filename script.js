@@ -121,29 +121,27 @@ const sections = document.querySelectorAll('section');
 
 sections.forEach((section, index) => {
     section.style.opacity = '0';
-    section.style.transition = 'opacity 1s, transform 1s';
+    section.style.transition = 'opacity1s, transform 1s';
 
-    // Aplica diferentes transformações com base no índice da seção
+    // Aplica diferentes transformações em base no índice da seção
     if (index !== 0) {
         if (index === 1) section.style.transform = 'translateY(100px)';
         else if (index === 2) section.style.transform = 'scale(0.8)';
-        else if (index === 3)
+        else if (index === 3) section.style.transform = 'rotateY(90deg)';
     }
 });
-
 
 // Observer para animar as seções ao rolar a página
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'none';
-        }
-    });
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'none';
+    })
 });
 
 // Observa cada seção para aplicar a animação
-sections.forEach((section) => observer.observe(section));
+section.forEach((section) => observer.observe(section));
+
 
 // ================ BOTÃO DE VOLTAR AO TOPO ===================
 // Adiciona um evento de clique ao botão de voltar ao topo
@@ -152,3 +150,5 @@ document.querySelector('.top a').addEventListener('click', (e) => {
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Rola suavemente para o topo da página
 });
 
+// =================== CARROSEL DE PROJETOS ========================
+// Seleciona os elementos do carrossel
