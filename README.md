@@ -32,9 +32,9 @@ Lista de tarefas:
 ○ [x] 2. Links Ativos  
 ○ [x] 3. Alternar modo claro/escuro  
 ○ [x] 4. Animação do título  
-○ [ ] 5. Animação da seção home  
-○ [ ] 6. Animação das seções  
-○ [ ] 7. Botão de voltar ao topo  
+○ [x] 5. Animação da seção home  
+○ [x] 6. Animação das seções  
+○ [x] 7. Botão de voltar ao topo  
 ○ [ ] 8. Carrosel de projetos  
 ○ [ ] 9. Formulário de contato  
 ○ [ ] 10. Animação de scroll
